@@ -127,4 +127,4 @@ function add(num1, num2) {
 
 <p>下面是从GitHub 文件目录中读到的照片</p>
 
-![wallhaven-lqre12.jpeg](https://github.com/Hsiang-k/demo/blob/master/images/header.jpg)
+![wallhaven-lqre13.jpeg](https://github.com/Hsiang-k/demo/blob/master/images/header.jpg)
