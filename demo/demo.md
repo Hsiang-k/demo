@@ -2,7 +2,7 @@
 # <center><font color=#0099ff size=4 face="黑体">This my first demo in Github</font></center>
 <p align="right" >Designed by 向凯</p>
 
->This is a quote:hello, it's me!!
+>This is a block quote:hello, it's me!!
 
 (A link to an external web site) This is my blog URL  [hsiang's blog](http://rujinyu.com)
 
@@ -123,7 +123,7 @@ function add(num1, num2) {
 <p align="center"><font color=#ff00 size=4 face="黑体">images</font></p>
 <p>下面是我将照片上传网站获得的链接</p>
 
-![wallhaven-lqre12.jpeg](https://i.loli.net/2021/04/28/Cm2RcEArTUhtNPn.jpg "title")
+![wallhaven-lqre12.jpeg](https://i.loli.net/2021/04/28/Cm2RcEArTUhtNPn.jpg)
 
 <p>下面是从GitHub 文件目录中读到的照片</p>
 
@@ -134,3 +134,42 @@ function add(num1, num2) {
 </font></p>
 
 [Link from the second markdown file back to the README.md](https://github.com/Hsiang-k/demo/blob/master/README.md)
+
+
+## list部分
+
+>bulleted list：
+- bulleted list item 1 
+- bulleted list item 2
+- bulleted list item 3 
+    - element1
+    - element2
+    - element3
+
+>numbered list:
+1. numbered item 1
+2. numbered item 2
+3. numbered item 3
+    - numbered element
+
+## table 部分
+|  Name     |    Email  |
+| --------- | --------- |
+| xiangkai  | 1234@gmial.com |
+| John      | hhh@gmial.com  |
+
+## 加粗
+**This is a bold text**
+
+##  强调
+*This a italicized text.*
+
+## 删除线
+~~Strikethrough~~
+
+--- 
+这是一条华丽的分割线
+
+---
+作者：向凯
+<p>完结撒花</p>
