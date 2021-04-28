@@ -2,8 +2,11 @@
 # <center><font color=#0099ff size=4 face="黑体">This my first demo in Github</font></center>
 <p align="right" >Designed by 向凯</p>
 
+## 一、blockQuote
+
 >This is a block quote:hello, it's me!!
 
+## 二、external web site
 (A link to an external web site) This is my blog URL  [hsiang's blog](http://rujinyu.com)
 
 >以下是从我的个人博客上截取的Linux服务器命令片段(因为我的blog是挂在linux服务器上的)
@@ -22,8 +25,6 @@ ssh-keygen -t rsa
 ssh-copy-id -i ~/.ssh/id_rsa.pub root@server_ip
 ```
 
-<!--more-->
-
 ### 2.查看日志
 
 #### 1)动态查看日志，按Ctrl+C退出。program为你想查看的项目名
@@ -38,52 +39,7 @@ tail -f program.log
 ```shell
 tail -n cnt program.log | grep "yyyy-mm-dd"
 ```
-
-#### 3)如果希望看关键字附近的日志，思路是首先找到关键字所在的行，输入例如指令：
-
-```shell
-cat -n program.log | grep "yyyy-mm-dd"
-```
-
-这样会的到关键字的所在行的行号，如588,然后输入指令例如：
-
-```shell
-cat -n program.log |tail -n +420|head -n 20
-```
-
-意思是从420行开始查，显示前20行日志，即从420行查到440行
-
-#### 4)可以使用less命令，对日志进行翻页查看
-
-```
-less -N program.log
-```
-
-可以查看日志，-N的意思是显示行号，这里N必须大写，按PageUp和PageDown可以进行翻页，输入q退出指令
-
-#### 5)有时候less命令查看日志显示乱码，可以在使用less命令之前先输入命令:
-
-```shell
-export LESSCHARSET=utf-8
-```
-
-设置一下编码就可以解决乱码问题了有时候log日志很长，你希望从最底部开始往上看，可以按住SHIFT+G，然后通过PageUp和PageDown进行翻页,退出输入q即可
-
-### 3.查看端口占用情况
-
-```shell
-netstat -ant |grep port || lsof -i:port || sudo lsof -i tcp:port #查看	
-kill -9 PID #杀掉线程，注意PID
-```
-
-### 4.密码更改遇到的错误
-
-```shell
-BAD PASSWORD: it is based on a dictionary word
-```
-
-解决方案:多输几个大小写字母
-
+## 三、代码加高亮
 ## npm
 ```bash
 npm install
@@ -120,7 +76,7 @@ function add(num1, num2) {
     return num1 + num2;
 }
 ```
-<p align="center"><font color=#ff00 size=4 face="黑体">images</font></p>
+## 四、照片
 <p>下面是我将照片上传网站获得的链接</p>
 
 ![wallhaven-lqre12.jpeg](https://i.loli.net/2021/04/28/Cm2RcEArTUhtNPn.jpg)
@@ -129,12 +85,11 @@ function add(num1, num2) {
 
 ![wallhaven-lqre13.jpeg](https://github.com/Hsiang-k/demo/blob/master/images/header.jpg)
 
-
-<p><font color=#ff09 size=4 face="黑体">a link between markdown pages. Link from README.md to the second markdown file and from the second markdown file back to the README.md.
-</font></p>
+## 五、从一个markdown文件跳转到另一个markdown文件
 
 [Link from the second markdown file back to the README.md](https://github.com/Hsiang-k/demo/blob/master/README.md)
 
+## 六、其他
 
 ## list部分
 
