@@ -120,7 +120,7 @@ function add(num1, num2) {
     return num1 + num2;
 }
 ```
-<center><font color=#ff00 size=4 face="黑体">images</font></center>
+<p align="center"><font color=#ff00 size=4 face="黑体">images</font></p>
 <p>下面是我将照片上传网站获得的链接</p>
 
 ![wallhaven-lqre12.jpeg](https://i.loli.net/2021/04/28/Cm2RcEArTUhtNPn.jpg)
