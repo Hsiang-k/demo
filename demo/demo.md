@@ -123,11 +123,11 @@ function add(num1, num2) {
 <p align="center"><font color=#ff00 size=4 face="黑体">images</font></p>
 <p>下面是我将照片上传网站获得的链接</p>
 
-![wallhaven-lqre12.jpeg](https://i.loli.net/2021/04/28/Cm2RcEArTUhtNPn.jpg)
+![wallhaven-lqre12.jpeg](https://i.loli.net/2021/04/28/Cm2RcEArTUhtNPn.jpg "title")
 
 <p>下面是从GitHub 文件目录中读到的照片</p>
 
-![wallhaven-lqre13.jpeg](https://github.com/Hsiang-k/demo/blob/master/images/header.jpg "title")
+![wallhaven-lqre13.jpeg](https://github.com/Hsiang-k/demo/blob/master/images/header.jpg)
 
 
 <p><font color=#ff09 size=4 face="黑体">a link between markdown pages. Link from README.md to the second markdown file and from the second markdown file back to the README.md.
